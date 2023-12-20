@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const config = require('./config');
-
+// generate token
 function generateToken(user) {
   const payload = {
     userId: user._id,
@@ -13,6 +13,7 @@ function generateToken(user) {
   return jwt.sign(payload, config.jwtSecret, options);
 }
 
+// validate token
 function verifyToken(req, res,next) {
   const token = req.headers.authorization && req.headers.authorization.split(' ')[1];
 

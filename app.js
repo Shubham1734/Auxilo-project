@@ -8,6 +8,7 @@ const config = require('./config');
 const app = express();
 const port = process.env.PORT || 3000;
 
+// mongo connection
 mongoose.connect('mongodb://localhost:27017/auxilo', {
 });
 

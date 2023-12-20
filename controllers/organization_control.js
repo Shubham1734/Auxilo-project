@@ -1,6 +1,6 @@
 const { generateToken } = require('../auth');
 const OrganizationModel = require('../models/Omodel');
-
+// actual logic of crud operation
 exports.create = async (req, res) => {
     try {
         const organization = await OrganizationModel.create(req.body);

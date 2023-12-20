@@ -1,5 +1,6 @@
 const PersonalDetailsModel = require('../models/Pmodel');
 const { generateToken } = require('../auth');
+// actual logic for crud operation
 exports.create = async (req, res) => {
     try {
       const personalDetails = await PersonalDetailsModel.create(req.body);
