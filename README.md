@@ -63,4 +63,11 @@ For the secret key, please visit the config.js file.
 
 # Authorization
 To fetch data from the server, first generate your token and add it to the header in the proper format.
+# Screenshots
+## Store the data on the server using the POST method
+![Screenshot (1068)](https://github.com/Shubham1734/Auxilo-project/assets/93915712/cc2c4f35-9c43-46d7-8ab8-52397ab596a5)
+
+## Retrieve the data from the server using the GET method
+![Screenshot (1069)](https://github.com/Shubham1734/Auxilo-project/assets/93915712/e08aaf31-684b-4115-80f0-4ef2a79196b1)
+
 
